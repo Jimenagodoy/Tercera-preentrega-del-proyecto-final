@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2? family= Inter:wght@100 & display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Abril+Fatface & display=swap");
+.card {
+  background-color: #4e9467;
+  font-family: "Abril+Fatface", cursive; }
+
+.navbar {
+  background-color: #4e9467;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.btn, .boton-color {
+  background-color: #EBE6BF;
+  color: #BF7AC2;
+  border: none; }
+  .btn:hover, .boton-color:hover {
+    cursor: pointer; }
+
+.boton-color {
+  border-radius: 4px;
+  margin-bottom: 2px; }
+
+p {
+  font-size: 1.5em;
+  font-family: "Inter", sans-serif;
+  color: #282525; }
+
+.parrafo__estilo {
+  color: #D860E6; }
+
+h1 {
+  color: #BF7AC2;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center; }
+
+body {
+  background-image: url(../img/hojas.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+
+
+

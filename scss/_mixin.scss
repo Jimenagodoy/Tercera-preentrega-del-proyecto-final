@@ -1,0 +1,49 @@
+//extend
+
+.btn{
+	background-color: $white;
+	color: $keyColor;
+	border: none;
+	&:hover{
+		cursor:pointer;
+	}
+
+}
+
+.boton-color{
+	@extend .btn;
+	border-radius: 4px;
+	margin-bottom: 2px;
+}
+
+//mixin
+
+@mixin texto($size, $family,$color,){
+	font-size: $size;
+	font-family: $family;
+	color: $color;
+}
+
+
+p{
+	@include texto($textL,$mainFont,$black)
+}
+
+//map
+
+$paleta:(
+ 'uno': #6CB681,
+ 'dos': #377C46,
+ 'tres': #D860E6,
+ 'cuatro':#E88FCA,
+ 'cinco': #B689AC,
+);
+
+.parrafo__estilo{
+	color: map-get($map:$paleta, $key: 'tres')
+}
+
+
+
+
+
